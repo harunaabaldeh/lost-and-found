@@ -1,3 +1,5 @@
+![Local Image](image.png)
+
 # Lost Document Finder
 
 A web application designed to help users search for and manage lost documents efficiently. The application enables users to find information about lost items and simplifies the process of tracking and reporting lost documents.
