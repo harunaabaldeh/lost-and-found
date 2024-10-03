@@ -36,6 +36,37 @@ A web application designed to help users search for and manage lost documents ef
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/harunaabaldeh/lost-and-found
+   cd lost-and-found
    ```
+
+2. **Setting the backend**
+
+- Navigate to the backend directory
+  ```bash
+  cd backend/src/API
+  ```
+- Restore dependencies and run the application
+  ```bash
+  dotnet restore
+  dotnet run
+  ```
+- The API should now be running at http://localhost:5000 (or another specified port).
+
+3. Set up the frontend
+
+- Open a new terminal and navigate to the frontend directory
+  ```bash
+  cd frontend/LostDocuments
+  ```
+- Install dependencies
+  ```bash
+  npm install
+  ```
+- Start the development server
+  ```bash
+  npm run dev
+  ```
+- The application should now be accessible at http://localhost:5173/
